@@ -55,6 +55,7 @@ header .logo-title:hover{
     margin-top: 0.5rem;
 }
 
+
 .banner{
     display: flex;
     flex-direction: row;
@@ -92,7 +93,7 @@ header .logo-title:hover{
 
 .banner .left-section .btn:hover{
     background-color: transparent;
-    border: 1px solid hsl(0, 0%, 20%);
+    border: 2px solid hsl(0, 0%, 20%);
     color: hsl(0, 0%, 20%);
 }
 
