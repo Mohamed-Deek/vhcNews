@@ -55,16 +55,19 @@ header .logo-title:hover{
     margin-top: 0.5rem;
 }
 
+.show-case{
+    height: 100vh;
+}
 
 .banner{
     display: flex;
     flex-direction: row;
-    width: 98vw;
+    width: 99vw;
 }
 
 .banner .left-section{
     width: 49%;
-    height: 80vh;
+    height: 80%;
     padding: 3rem 8rem;
 }
 
@@ -100,11 +103,51 @@ header .logo-title:hover{
 .banner .right-section{
     width: 49%;
     padding: 3rem 10.5rem;
-    height: 80vh;
+    height: 80%;
 }
 
 .banner .right-section img{
     width: 550px;
     height: 350px;
+}
+
+.news-latter{
+    height: 30%;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-latter h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.news-latter input{
+    padding: 0.8rem 6rem;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+
+.news-latter input:focus{
+    outline: none;
+}
+
+.news-latter .btn{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
+    padding: 0.4rem 6.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 300;
 }
 
