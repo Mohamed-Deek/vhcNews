@@ -58,13 +58,13 @@ header .logo-title:hover{
 .banner{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 98vw;
 }
 
 .banner .left-section{
-    width: 50vw;
-    height: 100vh;
-    padding: 4rem 8rem;
+    width: 49%;
+    height: 80vh;
+    padding: 3rem 8rem;
 }
 
 .banner .left-section h1{
@@ -81,8 +81,9 @@ header .logo-title:hover{
 }
 
 .banner .left-section .btn{
+    cursor: pointer;
     border: none;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
     padding: 1rem 3rem;
@@ -96,12 +97,13 @@ header .logo-title:hover{
 }
 
 .banner .right-section{
-    width: 50vh;
-    padding: 4rem 8rem;
-    height: 100vh;
+    width: 49%;
+    padding: 3rem 10.5rem;
+    height: 80vh;
 }
 
 .banner .right-section img{
     width: 550px;
     height: 350px;
 }
+
