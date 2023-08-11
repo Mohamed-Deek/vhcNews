@@ -89,6 +89,12 @@ header .logo-title:hover{
     font-size: 1.1rem;
 }
 
+.banner .left-section .btn:hover{
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 20%);
+}
+
 .banner .right-section{
     width: 50vh;
     padding: 4rem 8rem;
