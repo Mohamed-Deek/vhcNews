@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 600px;
+    height: 450px;
+}
 
 header{
     display: flex;
@@ -51,5 +55,47 @@ header .logo-title:hover{
     margin-top: 0.5rem;
 }
 
+.banner{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
 
+.banner .left-section{
+    width: 50vw;
+    height: 100vh;
+    padding: 4rem 8rem;
+}
 
+.banner .left-section h1{
+    font-size: 3rem;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 300;
+    margin-bottom: 1rem;;
+}
+
+.banner .left-section p{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.banner .left-section .btn{
+    border: none;
+    margin-top: 1rem;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+}
+
+.banner .right-section{
+    width: 50vh;
+    padding: 4rem 8rem;
+    height: 100vh;
+}
+
+.banner .right-section img{
+    width: 550px;
+    height: 350px;
+}
