@@ -87,7 +87,7 @@ header .logo-title:hover{
     line-height: 1.4rem;
 }
 
-.banner .left-section .btn{
+.banner .left-section .btn , .flex-grp .btn{
     cursor: pointer;
     border: none;
     margin-top: 1.5rem;
@@ -186,6 +186,15 @@ header .logo-title:hover{
     font-family: 'IBM Plex Serif', serif;
     font-size: 1.1rem;
     line-height: 1.8rem;
+    /* margin-top: 1rem; */
+}
+.flex-grp .btn{
+    margin-top: 0.5rem;
+}
+.flex-grp .btn:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 20%);
+    border: 2px solid hsl(0, 0%, 20%);
 }
 
 
