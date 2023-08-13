@@ -201,7 +201,7 @@ header .logo-title:hover{
 .footer{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    height: 40vh;
+    height: 30vh;
     background-color: hsl(0, 0%, 96%);
     padding-top: 2rem;
 }
@@ -221,5 +221,36 @@ header .logo-title:hover{
     font-family: 'IBM Plex Serif', serif ;
     color: hsl(0, 0%, 20%);
     line-height: 2rem;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid hsl(0, 0%, 80%);
+    height: 10vh;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.bottom-footer p, .social-media{
+    margin: 1rem 4rem;
+}
+
+.bottom-footer p{
+    font-size: 1.3rem;
+    font-family: 'IBM Plex Serif', serif;
+    margin-top: 1rem;
+}
+.bottom-footer .social-media .social-head{
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Serif', serif;
+    text-transform:uppercase ;
+    text-align: center;
+}
+
+.bottom-footer a{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
 }
 
