@@ -161,6 +161,7 @@ header .logo-title:hover{
     display: flex;
     width: 90vw;
     padding-top: 0;
+    padding-bottom: 10rem;
 }
 
 .flex-grp div{
@@ -195,5 +196,30 @@ header .logo-title:hover{
     background-color: transparent;
     color: hsl(0, 0%, 20%);
     border: 2px solid hsl(0, 0%, 20%);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    height: 40vh;
+    background-color: hsl(0, 0%, 96%);
+    padding-top: 2rem;
+}
+
+.footer .logo-title{
+    margin: 1rem 4rem;
+    font-size: 2rem;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Serif', serif ;
+    color: hsl(0, 0%, 20%);
+    line-height: 2rem;
 }
 
