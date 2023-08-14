@@ -256,3 +256,74 @@ header .logo-title:hover{
     color: hsl(0, 0%, 20%);
 }
 
+/* full article page CSS */
+/* Main area for article */
+main{
+    margin: 1rem 10rem;
+    display: grid;
+}
+
+main h1{
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 300;
+    margin: 1rem 2rem;
+}
+.article-info{
+    display: flex;
+    margin: 1rem;
+}
+
+.article-info img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid hsl(325, 95%, 32%);
+    padding: 0.1rem;
+}
+
+.article-info p{
+    margin: 1rem 2rem;
+    font-size: 1.3rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: lighter;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 'artc  sidebar sidebar sidebar';
+    height: 100vh;
+}
+
+.artc{
+    grid-area: artc;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.main-content .artc{
+    align-items: center;
+    font-family: 'IBM Plex Serif', serif;
+    line-height: 2rem;
+}
+
+
+.main-content .sidebar .flex-grp{
+   display: flex;
+   flex-direction: column;
+   max-width: 800px;;
+}
+
+.main-content .sidebar .flex-grp img{
+    width: 200px;
+    height: 90px;
+}
+.main-content .sidebar .flex-grp h2{
+    font-size: 16px;
+}
+.main-content .sidebar .flex-grp p{
+    font-size: 12px;
+}
+
