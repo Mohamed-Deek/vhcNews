@@ -346,7 +346,7 @@ form{
 
 form input{
     display: block;
-    padding: 8px 80px;
+    padding: 10px 80px;
     outline: solid  hsl(156, 17%, 94%) 1px;
 }
 
@@ -368,6 +368,10 @@ form .submit-btn{
     color: hsl(0, 0%, 100%);
     font-size: 1.3rem;
     font-family: 'IBM Plex Serif', serif;
-    border-radius: 2%;
+}
+
+form p{
+    margin-top: 15px;
+    font-size: 1.2rem;;
 }
 
