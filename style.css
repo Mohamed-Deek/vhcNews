@@ -334,7 +334,7 @@ main h1{
     margin: 0 auto;
     height: 60vh;
     width: 50vw;
-    background-color: rgb(190, 197, 195);
+    background-color: hsl(156, 17%, 94%);
 }
 form{
    
@@ -347,6 +347,27 @@ form{
 form input{
     display: block;
     padding: 8px 80px;
-    margin: 10px 0;
+    outline: solid  hsl(156, 17%, 94%) 1px;
+}
+
+form label{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 300;
+}
+
+form .submit-btn{
+    display: block;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 115px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    font-family: 'IBM Plex Serif', serif;
+    border-radius: 2%;
 }
 
